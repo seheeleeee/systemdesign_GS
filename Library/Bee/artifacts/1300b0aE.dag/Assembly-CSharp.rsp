@@ -358,6 +358,7 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/ClothSprite/Demo/DemoSceneAssets/ClothSpriteBallScript.cs"
 "Assets/ClothSprite/Scripts/ClothSprite.cs"
+"Assets/curtain.cs"
 "Assets/curtain_1.cs"
 "Assets/curtain_movement.cs"
 "Assets/curtain_test.cs"

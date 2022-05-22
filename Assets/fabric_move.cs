@@ -7,6 +7,8 @@ public class fabric_move : MonoBehaviour
     public bool is_user_see;
     public float speed;
     public float waittime;
+    public int yvalue;
+    public bool yy=false;
     Renderer renderer;
     // Start is called before the first frame update
     void Start()
@@ -20,20 +22,20 @@ public class fabric_move : MonoBehaviour
     {
         if (is_user_see)
         {
-            if (transform.position.y<-250)
+            if (transform.position.y<yvalue)
             {
-                StartCoroutine("FadeAway");
+                yy = true;
             }
         }
-        else
+        if (yy)
         {
-
+            StartCoroutine("FadeAway");
         }
     }
 
     IEnumerator FadeAway()
     {
-        for(float f=1f; f>=0; f -= 0.005f)
+        for(float f=1; f>=0f; f -= 0.005f)
         {
             Color c = renderer.material.color;
             c.a = f;
