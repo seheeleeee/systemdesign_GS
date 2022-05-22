@@ -7370,6 +7370,8 @@ MonoBehaviour:
   - {fileID: -5470412725342300610}
   - {fileID: -8879559841842435257}
   - {fileID: -6590245544360298573}
+  - {fileID: 2400354528911721269}
+  - {fileID: 7570656131976902220}
   inputMesh: {fileID: 4300002, guid: a59c42320188c4432b095000f813a44f, type: 3}
   scale: {x: 1, y: 1, z: 1}
   rotation: {x: 0, y: 0, z: 0, w: 1}
@@ -20431,4 +20433,32 @@ MonoBehaviour:
   m_Name: flag2
   m_EditorClassIdentifier: 
   particleIndices: 0200000003000000050000000d0000000e0000001a0000001b0000002b0000002c0000003000000031000000590000005a0000005e0000005f000000db000000dc000000
+  m_Blueprint: {fileID: 11400000}
+--- !u!114 &2400354528911721269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 775ad4994fda946d1a5936c7e2dfc785, type: 3}
+  m_Name: fflag
+  m_EditorClassIdentifier: 
+  particleIndices: dc000000
+  m_Blueprint: {fileID: 11400000}
+--- !u!114 &7570656131976902220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 775ad4994fda946d1a5936c7e2dfc785, type: 3}
+  m_Name: ffflag
+  m_EditorClassIdentifier: 
+  particleIndices: 02000000
   m_Blueprint: {fileID: 11400000}

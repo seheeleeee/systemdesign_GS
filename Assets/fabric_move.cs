@@ -20,7 +20,7 @@ public class fabric_move : MonoBehaviour
     {
         if (is_user_see)
         {
-            if (transform.position.y<-150)
+            if (transform.position.y<-250)
             {
                 StartCoroutine("FadeAway");
             }
